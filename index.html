@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Nosso primeiro JS</title>
+</head>
+<body>
+    <section id="formulario">
+        <form>
+            <fieldset>
+                <label>Informe se peso:</label>
+                <input type="text" name="peso" id="ps"><br>
+                <label>Informe se altura:</label>
+                <input type="text" name="altura" id="al">
+                <span>em centimetros</span><br>
+                <button class="btn" onclick="calcImc()">Calcule o Imc</button>
+            </fieldset>
+            <button onclick="alternarTemas_escuro()">Tema Escuro</button>
+            <button onclick="alternarTemas_claro()">Tema Claro</button>
+        </form>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
